@@ -12,11 +12,11 @@ abstract_target 'Tests' do
   pod 'RxBlocking'
 
   target 'iOSTests' do
-    platform :ios, '9.0'
+    platform :ios, '13.0'
   end
 
   target 'tvOSTests' do
-    platform :tvos, '9.0'
+    platform :tvos, '13.0'
   end
 
   target 'macOSTests' do

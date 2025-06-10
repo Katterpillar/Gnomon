@@ -1,7 +1,7 @@
 PODS:
-  - AEXML (4.5.0)
+  - AEXML (4.6.1)
   - Gnomon/Core (5.2.6):
-    - RxSwift (~> 5)
+    - RxSwift (~> 6.6.0)
   - Gnomon/Decodable (5.2.6):
     - Gnomon/Core
   - Gnomon/JSON (5.2.6):
@@ -11,11 +11,11 @@ PODS:
     - AEXML (~> 4.2)
     - Gnomon/Core
   - Nimble (7.3.4)
-  - RxBlocking (5.0.1):
-    - RxSwift (~> 5)
-  - RxSwift (5.0.1)
-  - SwiftLint (0.37.0)
-  - SwiftyJSON (5.0.0)
+  - RxBlocking (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - SwiftLint (0.51.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Gnomon/Core (from `.`)
@@ -27,7 +27,7 @@ DEPENDENCIES:
   - SwiftLint (~> 0.27)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AEXML
     - Nimble
     - RxBlocking
@@ -40,14 +40,14 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  AEXML: 0e8f1d874fa033ca6b3909452a8bc362faad46e6
-  Gnomon: 64c1c4278b52a749a30eecb9d75992edfb8e4509
+  AEXML: 1e255ecc6597212f97a7454a69ebd3ede64ac1cf
+  Gnomon: 51f119cd3afd5dd6be5f9b12b73de7d6abcd1758
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  RxBlocking: c5e090f42d046df8b0e7752742510f349963710f
-  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
-  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
-  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  RxBlocking: fbd1f8501443024f686e556f36dac79b0d5f4d7c
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SwiftLint: 1b7561918a19e23bfed960e40759086e70f4dba5
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 94b0976b7a668ed06601438847d588dfa12ea490
+PODFILE CHECKSUM: ccc1722b0353dabf98c88397e77b335e9f15e7fe
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.16.2
