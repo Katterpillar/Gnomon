@@ -14,7 +14,7 @@ let package = Package(
       .library(name: "GnomonXML", targets: ["GnomonXML"])
     ],
     dependencies: [
-      .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.1")),
+      .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.8.0")),
       .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", .upToNextMajor(from: "5.0.0")),
       .package(url: "https://github.com/tadija/AEXML.git", .upToNextMajor(from: "4.2.0"))
     ],
